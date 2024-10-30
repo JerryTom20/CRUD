@@ -1,0 +1,160 @@
+@import url('https://fonts.googleapis.com/css2?family=Great+Vibes&family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap');
+@import "@fortawesome/fontawesome-free/css/all.min.css";
+
+* {
+    margin: 0;
+    font-family: "Roboto", sans-serif;
+}
+
+main {
+
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+    background-color: rgb(36, 36, 36);
+}
+
+.geral {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-around;
+    margin: 0 10%;
+}
+
+form {
+    position: relative;
+    padding: 35px 20px;
+    display: flex;
+    align-items: flex-start;
+    height: 100%;
+    border: 3px solid purple;
+    border-radius: 25px;
+    flex-direction: column;
+    width: 97%;
+
+    button {
+        height: 50px;
+        border: 2.5px solid purple;
+        border-radius: 10px;
+        background-color: transparent;
+        color: white;
+        font-size: 20px;
+        font-weight: 300;
+
+    }
+
+    #enviar {
+        width: 25%;
+    }
+
+    .enviar {
+        width: 25%;
+    }
+
+    .enviar:hover,
+    #enviar:hover,
+    .delet:hover {
+        background-color: rgb(88, 0, 88);
+    }
+
+    .edit {
+        width: 25%;
+    }
+
+    .delet {
+        width: 25%;
+    }
+}
+
+
+
+.lista {
+    margin-top: 50px;
+    display: flex;
+    height: 500px;
+    border: 3px solid purple;
+    width: 100%;
+    padding: 35px 0px;
+    border-radius: 25px;
+    overflow: auto;
+    justify-content: center;
+
+    ul {
+        width: 80%;
+    }
+}
+
+.liLista {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    border: 2.9px solid #80008085;
+    width: 100%;
+    padding: 20px;
+    border-radius: 10px;
+    list-style: none;
+    margin: 10px 0;
+}
+
+.liLista input[type="checkbox"] {
+    margin-right: 10px;
+}
+
+.liLista span {
+    flex-grow: 1;
+    text-align: center;
+    color: white;
+    font-size: 25px;
+    font-weight: bold;
+    font-family: "Roboto", sans-serif;
+}
+
+.liLista i {
+    margin-left: auto;
+    color: green;
+}
+
+.dados {
+    height: 50px;
+    width: 100%;
+    background: #8080800a;
+    border: 3px solid purple;
+    border-radius: 9px;
+    text-align: center;
+    margin: 0 auto;
+    color: white;
+    font-size: 30px;
+    font-weight: bold;
+}
+
+.botoes-container {
+    width: 100%;
+    display: flex;
+    gap: 10px;
+    justify-content: center;
+    margin-top: 45px;
+}
+
+@media (max-width:786px){
+    .lista{
+        height: 300px;
+    }
+    
+    .liLista{
+        width: auto;
+    }
+
+    .lista {
+        ul {
+            margin: 0;
+            padding: 0 10px;
+            width: 100%;
+        }
+    }
+}
