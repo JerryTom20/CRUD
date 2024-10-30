@@ -2,7 +2,7 @@
 
 ### Projeto feito com as coisas que aprendi no curso de Full Stack da Rocketseat
 
-![Imagem do projeto](Screenshot.png)
+![Imagem do projeto](screenshot.png)
 
 Este projeto é um CRUD (Create, Read, Update, Delete) com um diferencial: a interface inclui um checkbox que funciona como uma camada de segurança. Somente após marcar o checkbox é possível realizar ações de edição, exclusão, envio e conclusão. Abaixo do campo de entrada, há uma área central onde as operações de CRUD são efetivamente executadas, proporcionando uma experiência de uso prática e intuitiva.
 
