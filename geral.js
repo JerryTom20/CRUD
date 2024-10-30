@@ -36,7 +36,7 @@ form.addEventListener("submit", (e) => {
 
 //Botão de Excluir
 const bDletar = document.createElement("button");
-bDletar.textContent = "Excluir";
+bDletar.textContent = "Deletar";
 bDletar.classList.add("delet");
 botoesContainer.appendChild(bDletar);
 
